@@ -1,0 +1,54 @@
+
+.Estilo1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:200%;
+	font-weight: bold;
+	color: white;
+}
+
+
+.Estilo2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:200%;
+	font-weight: bold;
+	color: black;
+}
+
+.Estilo3 {
+	font-family: Arial;
+	font-size:100%;
+	font-weight: bold;
+	color: black;
+}
+
+.Estilo4 {
+	font-family:sans-serif;
+	font-size:25px;
+	font-weight: bold;
+	color: #fff;
+}
+
+
+.Estilo5 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:35px;
+	font-weight: bold;
+	color: #000;
+}
+
+a {
+
+	font-family: sans-serif;
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+
+}
+
+
+p {
+	text-align: right;
+}
+
+
+

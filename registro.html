@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>registro</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/estilos-login.css">
+	<script src="js/validar.js"></script>
+</head>
+<body>
+ <form action="registrar.php" class="form-register" method="post" onsubmit="return validar();">
+ 	<h2> Registro </h2>
+ 	<input type="text" id="nombre" name="nombre" placeholder="Nombre(s)" required>
+ 	<input type="text" id="apellidopaterno" name="apellidopaterno" placeholder="Apellido Paterno" required>
+ 	<input type="text" id="apellidomaterno" name="apellidomaterno" placeholder="Apellido Materno" required>
+ 	<input type="date" id="fecha" name="fecha" placeholder="Fecha de Nacimiento" required>
+ 	<input type="email" id="correo" name="correo" placeholder="Correo" required>
+ 	<input type="text" id="usuario" name="usuario" placeholder="Usuario" required>
+ 	<input type="password" id="contraseña" name="contraseña" placeholder="Contraseña" required>
+ 	<input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required>
+ 	<input type="submit" value="Registrarte">
+ </form>
+</body>
+</html>

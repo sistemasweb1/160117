@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+	align-content: center;
+
+}
+
+.banner {
+	width: 1050px;
+    height: 550px;
+	border: 3px solid dodgerblue;
+	margin:auto;
+
+
+	background-size: 100% 100%;
+
+	animation: banner 10s infinite;
+	animation-direction: alternate;
+
+}
+
+h1 {
+	
+	
+	text-align: center;
+}
+
+@keyframes banner {
+	0%, 20% {
+		background-image: url(file:///C:/Users/ivanm/Downloads/Universidad/Sistemas%20Web%20I/P%C3%A1gina%20Web/hoteles/1.jpg);
+		
+	}
+
+	25%, 45% {
+		background-image: url(file:///C:/Users/ivanm/Downloads/Universidad/Sistemas%20Web%20I/P%C3%A1gina%20Web/hoteles/2.jpg);
+		
+	}
+
+	50%, 75% {
+		background-image: url(file:///C:/Users/ivanm/Downloads/Universidad/Sistemas%20Web%20I/P%C3%A1gina%20Web/hoteles/3.jpg); 
+	}
+
+	80%, 100% {
+		background-image: url(file:///C:/Users/ivanm/Downloads/Universidad/Sistemas%20Web%20I/P%C3%A1gina%20Web/hoteles/4.jpg);
+	}
+
+}
